@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topping Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logogap">
+            <div class="logo-text"> Avalanche Bingsu
+                <img src="imgs/snowflakelogo.jpg" alt="Bingsu LOGO Image">
+            </div>
+        </div>
+        <nav role="navigation">
+            <span role="link" tabindex="0" onclick="window.location.href='index.html'">Home</span>
+            <span role="link" tabindex="0" onclick="window.location.href='about.html'">?</span>
+            <span role="link" tabindex="0" onclick="window.location.href='cartpg.html'">C</span>
+        </nav>
+    </header>
+
+    <main class="screen1">
+
+        <a href="flavorpg.html" class="backbutton">Back to Flavors</a>
+
+        <h1> Toppings </h1>
+
+        <div class="toppings-intro">
+            <h2>Choose Your Toppings</h2>
+            <p>Add some extra flavor with our variety of toppings!</p>
+        </div>
+
+        <section class="toppings-grid" aria-label="Toppings Selection">
+
+            <div class="toppings-list">
+
+                <article class="topping-item">
+                    <span><img src="imgs/redbean.avif" alt="Red Bean Topping"></span>
+                    <h3>Red Beans</h3>
+                    <p>Sweetened red beans to complement your Bingsu.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/mochi.avif" alt="Mochi Topping"></span>
+                    <h3>Mochi</h3>
+                    <p>Chewy mochi pieces for added texture.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/condensedmilk.avif" alt="Condensed Milk Topping"></span>
+                    <h3>Condensed Milk</h3>
+                    <p>Rich and creamy condensed milk drizzle.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/fruitsyrup.avif" alt="Fruit Syrup Topping"></span>
+                    <h3>Fruit Syrup</h3>
+                    <p>Sweet fruit syrup to enhance the flavor.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/pockyimgs.avif" alt="Pocky Topping"></span>
+                    <h3>Pocky Sticks</h3>
+                    <p>Crunchy Pocky sticks for a delightful crunch.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/oreocrumble.avif" alt="Oreo Topping"></span>
+                    <h3>Oreo Crumbles</h3>
+                    <p>Crushed Oreos for a chocolatey twist.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/icecreamscoop.avif" alt="Ice Cream Topping"></span>
+                    <h3>Ice Cream Scoop</h3>
+                    <p>A scoop of your favorite ice cream flavor.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/cheesebites.avif" alt="Cheese Cake Bites Topping"></span>
+                    <h3>Cheese Cake Bites</h3>
+                    <p>Delicious cheesecake bites to top off your Bingsu.</p>
+                </article>
+
+                <article class="topping-item">
+                    <span><img src="imgs/chiaseed.avif" alt="Chia Seed Topping"></span>
+                    <h3>Chia Seeds</h3>
+                    <p>Chia seeds for that needed crunch.</p>
+                </article>
+
+            </div>
+
+            <aside class="sidecart" aria-label="Current Cart">
+
+                <div class="cartimg">(SELECTED BINGSU)</div>
+                <h3>Current Cart</h3>
+
+                <ul class="cartitems">
+                    <li><span>Base Bingsu:</span> <span>$12.00</span></li>
+                    <li><span>Read Bean:</span> <span>$1.00</span></li>
+                    <li><span>Cheesecake Bites:</span> <span>$2.00</span></li>
+                    <li><span>Tax:</span> <span>$0.50</span></li>
+                </ul>
+
+                <div class="totalprice">
+                    <h3>Total Price: $15.50</h3>
+                </div>
+
+
+                <button class="checkout-button" onclick="alert('Order Added!'); window.location.href='cartpg.html'">
+                    ADD TO ORDER
+                </button>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+     <footer>
+        <p>&copy; 2025 Avalanche Bingsu</p>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logogap">
+            <div class="logo-text"> Avalanche Bingsu
+                <img src="imgs/snowflakelogo.jpg" alt="Bingsu LOGO Image">
+            </div>
+        </div>
+        <nav role="navigation">
+            <span role="link" tabindex="0" onclick="window.location.href='index.html'">Home</span>
+            <span role="link" tabindex="0" onclick="window.location.href='about.html'">?</span>
+            <span role="link" tabindex="0" onclick="window.location.href='cartpg.html'">C</span>
+        </nav>
+    </header>
+
+    <main class="screen1">
+        <a href="toppingspg.html" class="backbutton">Back to Toppings</a>
+
+        <div class="carttitle">
+            <h1>Your Cart</h1>
+        </div>
+
+        <section class="cart-grid" aria-label="Checkout Process">
+            <div class="cart-summary">
+
+                <div class="cartoverview">
+                    <h2> Items in Your Cart </h2>
+                </div>
+
+                <ul class="cartlist">
+                    <li><span>Base Bingsu:</span> <span>$12.00</span></li>
+                    <li><span>Red Bean:</span> <span>$1.00</span></li>
+                    <li><span>Cheesecake Bites:</span> <span>$2.00</span></li>
+                    <li><span>Tax:</span> <span>$0.50</span></li>
+
+                    <li><span>Total:</span></li>
+                    <li><span>$15.50</span></li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="payment-section">
+
+                <div class="checkouttime">
+                    <label for="pickuptime">Pick Up Time</label>
+                    <input type="time" id="pickuptime" class="pickuptimebox" value="12:00" min="09:00" max="21:00"
+                        required>
+                </div>
+
+                <div class="checkouttime">
+
+                    <label>Amount Due</label>
+                    <div class="pickuptimebox amountdue">$15.50</div>
+
+                </div>
+
+                <div class="checkouttime">
+
+                    <label for="paymentmethod">Card Number</label>
+                    <input type="text" class="pickuptimebox" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+
+                </div>
+
+                <button class="confirmorderbtn"
+                    onclick="alert('Thank you for your order! Your Bingsu will be ready at the selected time.') ">
+                    Confirm Order
+                </button>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+     <footer>
+        <p>&copy; 2025 Avalanche Bingsu</p>
+    </footer>
+
+</body>
+
+</html>
